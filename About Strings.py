@@ -59,10 +59,40 @@ print("---------------")
 print(s[-1]) # it prints the last index of the string 
 
 print("---------------")
+
 s = "Akash Rathod"
-print(s.startswith("A"))
+
+print(s.startswith("A")) # returns True if it starts with "A" else False
 
 print("---------------")
+
+print(s.endswith("d")) # returns true if ends with "d" else False
+
+print("---------------")
+
+print(s.find("a")) # finds " a " in which index it present if its nots in the string it return -1
+
+print("---------------")
+
+print(s.rfind("u")) # finds " u " in which index is presents it not present in the string it returns -1
+
+print("---------------")
+
+print(s.index("a")) # it is similar like find but if it is not found gives error index not found to avoid this we use find function
+
+print("---------------")
+
+print(s.rindex("a")) # it finds words from right side
+
+print("---------------")
+
+print(s.count("a")) # it counts How many times the word is repeating
+
+print("---------------")
+
+
+
+
 
 
 
