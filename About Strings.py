@@ -90,6 +90,21 @@ print(s.count("a")) # it counts How many times the word is repeating
 
 print("---------------")
 
+s = "           Akash RAthod               "
+
+print(s)
+
+print(s.strip())
+
+print("---------------")
+
+print(s.lstrip())
+
+print("---------------")
+
+print(s.rstrip())
+
+
 
 
 
