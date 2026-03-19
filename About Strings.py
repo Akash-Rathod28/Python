@@ -94,15 +94,35 @@ s = "           Akash RAthod               "
 
 print(s)
 
-print(s.strip())
+print(s.strip()) # removes all the spaces from both side
 
 print("---------------")
 
-print(s.lstrip())
+print(s.lstrip()) # removes left sides spaces
 
 print("---------------")
 
-print(s.rstrip())
+print(s.rstrip()) # removes right side spaces
+
+print("---------------")
+
+s = "Akash Rathod"
+
+print("---------------")
+
+print(s.split()) # it Splits by words
+
+# a = ""
+# for i in s:
+#     a = a + i + " "
+# print(a.split())
+
+print("---------------")
+
+print(s.rsplit(",")) # it converts all to the one word
+
+print("---------------")
+
 
 
 
